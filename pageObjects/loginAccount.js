@@ -6,6 +6,7 @@ class loginAccount{
    const passwordeditbox = this.page.locator("//input[@data-qa='login-password']");
    const loginBtn = this.page.locator("//button[text()='Login' and @type='submit']");
    
+   
 }
    async login(username,password) {
    await this.emailAddresseditbox.fill(username);
